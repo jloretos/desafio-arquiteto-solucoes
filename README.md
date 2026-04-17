@@ -1,12 +1,16 @@
 # Desafio Técnico – Arquiteto de Soluções
 
+## Implementação funcional disponível em:
+
+[Implementação Funcional - FastAPI + PostgreSQL](https://github.com/jloretos/cashflow-solution-challenge)
+
 ## Visão Geral
 
 Este repositório apresenta uma proposta de solução arquitetural para o desafio técnico de uma vaga de Arquiteto de Soluções.
 
 O objetivo é controlar o fluxo de caixa diário de um comerciante, contemplando lançamentos financeiros (créditos e débitos) e a disponibilização do saldo diário consolidado.
 
-Mais do que uma entrega funcional, esta proposta busca demonstrar:
+Além da implementação prática, esta proposta busca demonstrar:
 
 - capacidade analítica
 - visão sistêmica
@@ -81,8 +85,8 @@ Essa decisão atende diretamente ao requisito de que o serviço de lançamentos 
 │ Serviço de Consolidado  │
 │ Diário                  │
 └─────────────────────────┘
-
 ```
+
 ---
 
 ## Documentação Complementar
@@ -98,4 +102,5 @@ Essa decisão atende diretamente ao requisito de que o serviço de lançamentos 
 
 ## Resultado Esperado
 
-Uma solução escalável, resiliente, segura e preparada para evolução futura.
+Uma solução escalável, resiliente, observável e preparada para evolução contínua.
+
