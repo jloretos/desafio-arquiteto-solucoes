@@ -82,7 +82,7 @@ Essa decisão atende diretamente ao requisito de que o serviço de lançamentos 
 │ Diário                  │
 └─────────────────────────┘
 
-```md
+```
 ---
 
 ## Documentação Complementar
