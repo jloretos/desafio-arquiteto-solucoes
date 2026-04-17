@@ -81,3 +81,14 @@ Essa decisão atende diretamente ao requisito de que o serviço de lançamentos 
 │ Serviço de Consolidado  │
 │ Diário                  │
 └─────────────────────────┘
+
+---
+
+## Documentação Complementar
+
+- [Arquitetura detalhada](docs/arquitetura.md)
+- [Arquitetura de transição](docs/arquitetura-transicao.md)
+- [Decisões arquiteturais](docs/decisoes-arquiteturais.md)
+- [Domínios de negócio](docs/dominios-negocio.md)
+- [Requisitos não funcionais](docs/requisitos-nao-funcionais.md)
+- [Segurança e observabilidade](docs/seguranca-observabilidade.md)
