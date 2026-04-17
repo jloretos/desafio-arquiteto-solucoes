@@ -8,10 +8,10 @@ O objetivo é controlar o fluxo de caixa diário de um comerciante, contemplando
 
 Mais do que uma entrega funcional, esta proposta busca demonstrar:
 
-- capacidade analítica  
-- visão sistêmica  
-- tomada de decisão arquitetural  
-- atenção a requisitos não funcionais  
+- capacidade analítica
+- visão sistêmica
+- tomada de decisão arquitetural
+- atenção a requisitos não funcionais
 - organização técnica da solução
 
 ---
@@ -20,9 +20,9 @@ Mais do que uma entrega funcional, esta proposta busca demonstrar:
 
 Permitir que o comerciante consiga:
 
-- registrar créditos e débitos diários  
-- consultar lançamentos realizados  
-- visualizar saldo consolidado por data  
+- registrar créditos e débitos diários
+- consultar lançamentos realizados
+- visualizar saldo consolidado por data
 - operar com confiabilidade mesmo diante de falhas parciais do sistema
 
 ---
@@ -35,17 +35,17 @@ A arquitetura foi desenhada com separação entre dois contextos principais:
 
 Responsável por:
 
-- receber movimentações financeiras  
-- validar dados de entrada  
-- persistir lançamentos  
+- receber movimentações financeiras
+- validar dados de entrada
+- persistir lançamentos
 - publicar eventos de negócio
 
 ### 2. Serviço de Consolidado Diário
 
 Responsável por:
 
-- consumir eventos de lançamentos  
-- calcular saldo diário  
+- consumir eventos de lançamentos
+- calcular saldo diário
 - disponibilizar consulta consolidada
 
 ---
@@ -82,13 +82,20 @@ Essa decisão atende diretamente ao requisito de que o serviço de lançamentos 
 │ Diário                  │
 └─────────────────────────┘
 
+```md
 ---
 
 ## Documentação Complementar
 
-- [Arquitetura detalhada](docs/arquitetura.md)
-- [Arquitetura de transição](docs/arquitetura-transicao.md)
-- [Decisões arquiteturais](docs/decisoes-arquiteturais.md)
-- [Domínios de negócio](docs/dominios-negocio.md)
-- [Requisitos não funcionais](docs/requisitos-nao-funcionais.md)
-- [Segurança e observabilidade](docs/seguranca-observabilidade.md)
+- [Arquitetura detalhada](./docs/arquitetura.md)
+- [Arquitetura de transição](./docs/arquitetura-transicao.md)
+- [Decisões arquiteturais](./docs/decisoes-arquiteturais.md)
+- [Domínios de negócio](./docs/dominios-negocio.md)
+- [Requisitos não funcionais](./docs/requisitos-nao-funcionais.md)
+- [Segurança e observabilidade](./docs/seguranca-observabilidade.md)
+
+---
+
+## Resultado Esperado
+
+Uma solução escalável, resiliente, segura e preparada para evolução futura.
