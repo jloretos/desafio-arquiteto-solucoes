@@ -1,8 +1,10 @@
 # Desafio Técnico – Arquiteto de Soluções
 
-## Implementação funcional disponível em:
+## Implementação Prática
 
-[Implementação Funcional - FastAPI + PostgreSQL](https://github.com/jloretos/cashflow-solution-challenge)
+A implementação funcional desta proposta está disponível em:
+
+[cashflow-solution-challenge](https://github.com/jloretos/cashflow-solution-challenge)
 
 ## Visão Geral
 
